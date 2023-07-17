@@ -11,6 +11,8 @@ val logbackVersion = "1.2.5"
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
   "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion,
+  "com.typesafe.akka" %% "akka-stream" % akkaVersion,
+  "com.typesafe.akka" %% "akka-stream-testkit" % akkaVersion,
   "org.scalatest" %% "scalatest" % scalaTestVersion,
   "ch.qos.logback" % "logback-classic" % logbackVersion,
 )
